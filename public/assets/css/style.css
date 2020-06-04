@@ -1,0 +1,135 @@
+body {
+    background: white;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.example-wrapper { 
+    margin: 1em auto; 
+    max-width: 800px; 
+    width: 95%; 
+    font: 18px/1.5 sans-serif; 
+}
+.example-wrapper code { 
+    background: #F5F5F5; 
+    padding: 2px 6px; 
+}
+
+
+
+#header {
+    margin: 1em auto; 
+    max-width: 800px; 
+    width: 95%;
+    font: 18px/1.5 sans-serif; 
+}
+
+#menu {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    background: #eee;
+    line-height: 50px;
+}
+
+#menu li {
+    display: block;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #ccc;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#menu li.right {
+    float: right !important;
+    border-right: 0px;
+    border-left: 1px solid #ccc;
+}
+
+#menu a {
+    display: block;
+    color: #444;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+#menu li:hover {
+    background: #444;
+}
+
+#menu li:hover a{
+    color: white;
+}
+
+.buttons{
+    width: 33%;
+}
+
+
+label {
+    display: block;
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select  {
+    width: 70%;
+    padding: 8px;
+}
+
+button,
+input[type="submit"] {
+    padding: 8px;
+    margin-top: 15px;
+    background: #a5d758;;
+    color: #434344;
+    border: 1px solid red;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background: royalblue;
+}
+
+table th {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.buttons a{
+    text-decoration: none !important;
+    border: 1px solid greenyellow;
+    padding: 10px;
+    color: white;
+    background: yellow;
+}
+
+.buttons .btn-delete{
+background: rgb(185, 41, 41);
+}
+
+.buttons .btn-show{
+    background: rgb(78, 204, 78);
+}
+
+.buttons .btn-edit{
+    background: orange;
+}
+
+.data-task{
+    color: rgb(99, 37, 37);
+}
